@@ -1,20 +1,11 @@
-import Header from './components/Header/header';
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 function App() {
-  return (
-<section className="h-wrapper">
-  <div className="h-container">
-    <img src="./logo.png" alt="logo" width={100} />
- <div className="h-menu">
-  <a href=""></a>
-   <a href=""></a>
-    <a href=""></a>
-     <a href=""></a>
-      <a href=""></a>
- </div>
-  </div>
-
-</section>
-  )
+  
+  return <div className="App">
+    <Header />
+    <Hero />  
+    </div>;
 }
 
 export default App;
